@@ -330,7 +330,7 @@ modules:
         x-checker-data:
           type: anitya
           project-id: 1573
-          url-template: https://git.savannah.gnu.org/cgit/libcdio.git/snapshot/libcdio-release-$version.tar.gz
+          url-template: https://github.com/libcdio/libcdio/archive/refs/tags/$version.tar.gz
   - name: libcec
     buildsystem: cmake-ninja
     cleanup:
